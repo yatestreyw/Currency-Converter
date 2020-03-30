@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.midlandstech.student.treywyates.currencyconverter.MainActivity" >
+    <item android:id="@+id/action_add"
+        android:title="ADD"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_add"/>
+
+    <item android:id="@+id/action_edit"
+        android:title="EDIT"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_edit"/>
+
+    <item android:id="@+id/action_from"
+        android:title="FROM"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_set_as"/>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ETInput"
+        style="@style/BasicStyle"
+        android:layout_marginTop="80dp"
+        android:hint="Enter amount"
+        android:layout_alignParentTop="true"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/calcButton"
+        style="@style/BasicStyle"
+        android:layout_below="@+id/ETInput"
+        android:onClick="calculate"
+        android:text="Calculate"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/TVAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/calcButton"
+        android:background="#83FF0000"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+</RelativeLayout>
